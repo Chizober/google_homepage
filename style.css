@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family:poppins;
+    font-size: 13px;
+}
+#navbar{
+    display:flex;
+    margin-top:10px;
+    justify-content:flex-end;
+    align-items: center;  
+}
+#navbar ul{
+    text-decoration: none;
+    padding-right:30px;
+    margin:10px;
+    display:flex;
+}
+#navbar li{
+    list-style: none;
+}
+ #navbar li a{
+    text-decoration: none;
+    padding:10px;
+    color:#333;
+}
+img{
+    position:relative;
+    left:40%;
+    margin-top: 10px; 
+    padding-bottom: 20px; 
+}
+[type=text]{
+    width:580px;
+    padding:12px;
+    border-radius: 25px;
+    border:1px solid #ccc;
+    position:relative;
+    left:30%;
+}
+[type=text]:hover{
+    box-shadow: 0px 0px 0.2px 0.5px #ccc;
+    border:1px solid #ddd;
+
+}
+#btn{
+    position:relative;
+    left:40%;
+    margin-top: 20px;
+    padding :10px;
+    background-color:#f4f4f4;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#btn:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 0.2px 0.5px #ccc;
+}
+#links{
+    text-align: center;
+    padding: 20px;
+}
+#links a{
+    text-decoration: none;
+    padding:3px;
+    color:darkblue;
+}
+#links:hover{
+    text-decoration: underline;
+}
+#main-footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 10px;
+
+    padding:5px;
+    background-color:#f4f4f4;
+    position:fixed;
+    width:100%;
+    border:1px solid #ccc;
+    margin-bottom: -10px;
+    padding-left:20px;
+}
+p{
+    position:fixed;
+    text-align: left;
+    bottom:45px;
+    padding:15px;
+    padding-left:30px;
+    width:100%;
+    background-color:#f4f4f4;
+    margin:0px;
+    color:rgb(139, 130, 130);
+}
+#link1 ul{
+    display:flex;
+    padding:0;
+    margin:0;
+
+}
+#link1 ul li{
+    list-style: none;
+
+}
+#link1 li a{
+    text-decoration: none;
+    padding:10px;
+    display:block;
+    color:rgb(139, 130, 130);
+}
+
+#link2 ul{
+    display:flex;
+    padding:0;
+    margin:0;
+}
+#link2 ul li{
+    list-style: none;
+}
+#link2 li a{
+    text-decoration: none;
+    padding:10px;
+    display:block;
+    color:rgb(139, 130, 130);
+}
